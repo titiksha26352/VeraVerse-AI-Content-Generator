@@ -19,25 +19,6 @@
 - **AI Model**: Google Gemini API
 - **Hosting**: Vercel
 
-## 📊 Installation & Setup
-
-1. Install dependencies:
-   ```sh
-   npm install
-   ```
-2. Set up environment variables in a `.env.local` file:
-   ```sh
-   NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_key
-   CLERK_SECRET_KEY=your_clerk_secret
-   DATABASE_URL=your_postgres_url
-   GEMINI_API_KEY=your_gemini_api_key
-   ```
-4. Run the development server:
-   ```sh
-   npm run dev
-   ```
-5. Open **http://localhost:3000** to access the app.
-
 ## 🏆 Future Enhancements
 - **Integration with additional AI models** for better content customization.
 - **User-generated templates** for faster content creation.
@@ -45,9 +26,4 @@
 - **Collaboration features** for team-based content creation.
 
 
-<!-- npm install @clerk/themes --legacy-peer-deps
-npm install formidable
-npm install form-data node-fetch formidable --legacy-peer-deps
-npm install --save-dev @types/formidable --legacy-peer-deps -->
-<!-- npx drizzle-kit push -->
 
